@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Define the document character set and viewport settings -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+  <!-- Set the title of the HTML page -->
+  <title>ArcGIS JS API Interview Task Project</title>
+  
+  <!-- Link to an external stylesheet (styles.css) for custom styles -->
+  <link rel="stylesheet" href="styles.css"/>
+  
+  <!-- Link to the ArcGIS API for JavaScript CSS theme (light/main.css) -->
+  <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
+  
+  <!-- Include the ArcGIS API for JavaScript library -->
+  <script src="https://js.arcgis.com/4.28/"></script>
+</head>
+<body>
+  <!-- Create a container (viewDiv) for the ArcGIS view -->
+  <div id="viewDiv"></div>
+  
+  <!-- Create a container (customPopup) for a custom pop-up (initially hidden) -->
+  <div id="customPopup" class="hidden"></div>
+  
+  <!-- Create a container (widget-buttons) for widget buttons -->
+  <div class="widget-buttons">
+    <!-- Button to toggle the Legend widget -->
+    <button id="legend-button">Legend</button>
+    
+    <!-- Button to toggle the Layer List widget -->
+    <button id="layer-list-button">Layer List</button>
+  </div>
+  
+  <!-- Include the JavaScript code file (script.js) -->
+  <script src="script.js"></script>
+</body>
+</html>

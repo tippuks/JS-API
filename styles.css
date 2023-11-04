@@ -1,0 +1,77 @@
+/* Reset default padding, margin, and set full height and width for HTML, body, and #viewDiv */
+html, body, #viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Define styles for the custom pop-up container */
+  #customPopup {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8); /* Greyish black background */
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+    z-index: 1000;
+    max-width: 6500px; /* Set a maximum width for the pop-up */
+    color: white; /* Text color */
+  }
+  
+  /* Define styles for coordinate elements within the custom pop-up */
+  .coordinate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  /* Define styles for the table element */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Define styles for table header (th) and table data (td) cells */
+  th, td {
+    padding: 5px;
+    border: 1px solid white; /* White lines around table cells */
+    text-align: left;
+  }
+  
+  /* Define styles for table header (th) cells */
+  th {
+    background-color: #333; /* Dark gray background for table headers */
+  }
+  
+  /* Define styles for buttons */
+  button {
+    background-color: #0078ff; /* Blue button */
+    color: white; /* Button text color */
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  /* Define styles for buttons within the custom pop-up */
+  .popup-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Define hover styles for buttons within the custom pop-up */
+  .popup-button:hover {
+    cursor: pointer;
+  }
+  
+  /* Define styles for a container holding widget buttons */
+  .widget-buttons {
+    position: absolute;
+    bottom: 350px; /* Adjust this value to move the buttons down */
+    left: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
